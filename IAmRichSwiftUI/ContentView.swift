@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack(content: {
-            Color(.systemTeal).ignoresSafeArea()
+            Color(.systemOrange).ignoresSafeArea()
             VStack {
                 Text("I am Rich")
                     .font(.system(size: 40)).multilineTextAlignment(.center).bold()
